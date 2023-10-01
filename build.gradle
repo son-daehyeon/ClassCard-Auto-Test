@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.github.ioloolo'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    implementation 'org.seleniumhq.selenium:selenium-java:4.12.1'
+    implementation 'org.seleniumhq.selenium:selenium-chrome-driver:4.12.1'
+}
